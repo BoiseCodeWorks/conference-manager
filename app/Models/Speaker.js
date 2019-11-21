@@ -1,4 +1,4 @@
-import { generateId } from "../Utils";
+import { generateId } from "../Utils.js";
 
 export default class Speaker {
   constructor({ id = generateId(), sessionId, name, topic, time }) {

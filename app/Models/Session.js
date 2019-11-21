@@ -1,5 +1,5 @@
-import Speaker from "./Speaker";
-import { generateId } from "../Utils";
+import Speaker from "./Speaker.js";
+import { generateId } from "../Utils.js";
 
 export default class Session {
   constructor({ id = generateId(), name, speakers, time }) {
